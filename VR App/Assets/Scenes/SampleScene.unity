@@ -776,7 +776,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce7fbaf968e78ba48b430edbb54ee1d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ourHandPrefab: {fileID: 8702570872330543209, guid: f2d07e3c3db19064cb9f4a9f02250360,
+  ourHandPrefab: {fileID: 5960337307950932993, guid: 90fec8ac1abd11540866eac457e94848,
     type: 3}
   ourControllerCharacteristics: 320
 --- !u!1 &169388730
@@ -877,6 +877,7 @@ GameObject:
   - component: {fileID: 392822365}
   - component: {fileID: 392822364}
   - component: {fileID: 392822363}
+  - component: {fileID: 392822368}
   m_Layer: 0
   m_Name: RightHand Controller
   m_TagString: Untagged
@@ -917,7 +918,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 392822361}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e988983f96fe1dd48800bcdfc82f23e9, type: 3}
   m_Name: 
@@ -1277,8 +1278,7 @@ MonoBehaviour:
   m_UpdateTrackingType: 0
   m_EnableInputTracking: 1
   m_EnableInputActions: 1
-  m_ModelPrefab: {fileID: 3917463081031263244, guid: 3ed0d63ca6b3edd4bbb24dd3706a1217,
-    type: 3}
+  m_ModelPrefab: {fileID: 0}
   m_ModelParent: {fileID: 0}
   m_Model: {fileID: 0}
   m_AnimateModel: 0
@@ -1454,6 +1454,21 @@ MonoBehaviour:
     m_Reference: {fileID: 875253871413052681, guid: c348712bda248c246b8c49b3db54643f,
       type: 3}
   m_ButtonPressPoint: 0.5
+--- !u!114 &392822368
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 392822361}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce7fbaf968e78ba48b430edbb54ee1d0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ourHandPrefab: {fileID: 3514215908691666606, guid: 7becc60bf0fb4ee4a8f15eb032929653,
+    type: 3}
+  ourControllerCharacteristics: 576
 --- !u!1 &500952964
 GameObject:
   m_ObjectHideFlags: 0
